@@ -1,0 +1,318 @@
+/* Google Fonts - Birthstone Designed by Robert Leuschke  */
+@import url("https://fonts.googleapis.com/css2?family=Birthstone&display=swap");
+
+/* Google Fonts - Playfair Display Designed by Claus Eggers Sørensen  */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
+
+/* NAVBAR STYLING */
+.navbar-brand {
+  font-family: "Birthstone", cursive;
+  font-size: 30px;
+}
+.navbar-custom {
+  background-color: rgb(223, 236, 224) !important;
+  font-family: "Playfair Display", serif;
+  padding: 0;
+}
+
+/* Font styling for entire page */
+* {
+  font-family: "Playfair Display", serif;
+}
+
+/* TV SPLASH PAGE IMAGE STYLING */
+
+#main {
+  position: relative;
+  /* VH (Viewport height) determines the height of the element by setting it to a percentage of the viewport. NOTE: VW is used for width. */
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* So the text does NOT go right up against the edge on smaller screen sizes.  */
+  /* padding: 0 20px; */
+}
+
+#tv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(cover.png);
+  background-color: black;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* Don't Delete - Might Use */
+/* #cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 104%;
+    background-color: rgba(0, 0, 0, 0.5);
+} */
+
+
+/* SPLASH PAGE TEXT */
+#name {
+  color: rgb(242, 247, 244);
+  z-index: 3;
+  text-align: center;
+  margin-bottom: 200px;
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+}
+
+/* Flickering Glowing Text - Long CSS 200 lines or so. */
+
+@font-face {
+  font-family: Clip;
+  src: url("https://acupoftee.github.io/fonts/Clip.ttf");
+}
+
+.sign {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 50%;
+  background-image: radial-gradient(
+    ellipse 50% 35% at 50% 50%,
+    #9ff0dc,
+    transparent
+  );
+  transform: translate(-50%, -50%);
+  letter-spacing: 2;
+  left: 50%;
+  top: 50%;
+  font-family: "Clip";
+  text-transform: uppercase;
+  font-size: 6em;
+  color: #ffe6ff;
+  text-shadow: 0 0 0.6rem #ffe6ff, 0 0 1.5rem #acf3de,
+    -0.2rem 0.1rem 1rem #769994, 0.2rem 0.1rem 1rem #ff65bd,
+    0 -0.5rem 2rem #aff1ec, 0 0.5rem 3rem #8aa19c;
+  animation: shine 2s forwards, flicker 3s infinite;
+}
+
+@keyframes blink {
+  0%,
+  22%,
+  36%,
+  75% {
+    color: #ffe6ff;
+    text-shadow: 0 0 0.6rem #ffe6ff, 0 0 1.5rem #6e9b90,
+      -0.2rem 0.1rem 1rem #82b3aa, 0.2rem 0.1rem 1rem #7be7b5,
+      0 -0.5rem 2rem #64ac9a, 0 0.5rem 3rem #81e68b;
+  }
+  28%,
+  33% {
+    color: #92dfab;
+    text-shadow: none;
+  }
+  82%,
+  97% {
+    color: #529173;
+    text-shadow: none;
+  }
+}
+
+.flicker {
+  animation: shine 2s forwards, blink 3s 2s infinite;
+}
+
+.fast-flicker {
+  animation: shine 2s forwards, blink 10s 1s infinite;
+}
+
+@keyframes shine {
+  0% {
+    color: #cacfcd;
+    text-shadow: none;
+  }
+  100% {
+    color: #ffe6ff;
+    text-shadow: 0 0 0.6rem #ffe6ff, 0 0 1.5rem #e1ece9,
+      -0.2rem 0.1rem 1rem #68b47f, 0.2rem 0.1rem 1rem #d2e7d7,
+      0 -0.5rem 2rem #769681, 0 0.5rem 3rem #616462;
+  }
+}
+
+@keyframes flicker {
+  from {
+    opacity: 1;
+  }
+
+  4% {
+    opacity: 0.9;
+  }
+
+  6% {
+    opacity: 0.85;
+  }
+
+  8% {
+    opacity: 0.95;
+  }
+
+  10% {
+    opacity: 0.9;
+  }
+
+  11% {
+    opacity: 0.922;
+  }
+
+  12% {
+    opacity: 0.9;
+  }
+
+  14% {
+    opacity: 0.95;
+  }
+
+  16% {
+    opacity: 0.98;
+  }
+
+  17% {
+    opacity: 0.9;
+  }
+
+  19% {
+    opacity: 0.93;
+  }
+
+  20% {
+    opacity: 0.99;
+  }
+
+  24% {
+    opacity: 1;
+  }
+
+  26% {
+    opacity: 0.94;
+  }
+
+  28% {
+    opacity: 0.98;
+  }
+
+  37% {
+    opacity: 0.93;
+  }
+
+  38% {
+    opacity: 0.5;
+  }
+
+  39% {
+    opacity: 0.96;
+  }
+
+  42% {
+    opacity: 1;
+  }
+
+  44% {
+    opacity: 0.97;
+  }
+
+  46% {
+    opacity: 0.94;
+  }
+
+  56% {
+    opacity: 0.9;
+  }
+
+  58% {
+    opacity: 0.9;
+  }
+
+  60% {
+    opacity: 0.99;
+  }
+
+  68% {
+    opacity: 1;
+  }
+
+  70% {
+    opacity: 0.9;
+  }
+
+  72% {
+    opacity: 0.95;
+  }
+
+  93% {
+    opacity: 0.93;
+  }
+
+  95% {
+    opacity: 0.95;
+  }
+
+  97% {
+    opacity: 0.93;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+
+/* SKILLS AND ABOUT SECTION */
+#about {
+  margin-top: 15%;
+  padding: 50px;
+  text-align: center;
+  font-family: "Playfair Display", serif;
+}
+
+#bio {
+    line-height: 2;
+    letter-spacing: .6px;
+}
+
+#vestpic {
+  font-size: 10px;
+  max-width: 500px;
+}
+
+#about h2 {
+  margin: 40px 0;
+  color: #black;
+  text-align: center;
+}
+
+#img1 {
+  border-radius: 50px;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+#img1:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.09);
+}
+
+#img2 {
+  border-radius: 50px;
+}
+
+/* #skillsIcons {
+    width: 300px;
+} */

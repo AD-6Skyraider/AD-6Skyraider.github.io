@@ -20,3 +20,9 @@
   * {
     font-family: "Playfair Display", serif;
   }
+
+  .display-2:hover {
+    cursor: pointer;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.09);
+  }

@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+
+/* Google Fonts - Birthstone Designed by Robert Leuschke  */
+@import url("https://fonts.googleapis.com/css2?family=Birthstone&display=swap");
+
+/* Google Fonts - Playfair Display Designed by Claus Eggers Sørensen  */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
+
+html {
+    background-color: rgb(239, 240, 245);
+}
+
+/* NAVBAR STYLING */
+.navbar-brand {
+    font-family: "Birthstone", cursive;
+    font-size: 30px;
+  }
+  .navbar-custom {
+    background-color: rgb(223, 236, 224) !important;
+    font-family: "Playfair Display", serif;
+    padding: 0;
+  }
+
+
+p {
+    font-family: 'Italianno', cursive;
+    font-weight: 700;
+    
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    /* VW sets the font/textsize based on the width of the Viewport. AKA browser window. */
+    font-size: 40px;
+    /* font-size: 25px; */
+    text-align: center;
+    padding-bottom: 10px;
+    width: 47.5%;
+    margin: auto;
+}
+
+img {
+    /* 22.5 * 4 = 90 */
+    width: 22.5%;
+/* 1.25 * 2 * 4 = 10 */
+    margin: 1.25%;
+    /* 90 + 10 = 100 */
+
+    /* The float CSS property places an element on the left or right side of its container/parent elements to wrap around it. The element is removed from the normal document flow. Also removes the "mystery space" between image elements. (NOTE: this "mystery space" is the actual spaces between img element in an html file.) */
+    float: left;
+}

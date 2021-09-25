@@ -10,7 +10,12 @@
     <!-- Bootstrap CSS Link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 
+    <!-- CSS Link -->
     <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome Link -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
     <title>William Vest Web Developer</title>
 </head>
 <body>
@@ -92,43 +97,103 @@
         <div>
 
     </section>    
-    <hr>
 
 
     <!-- Skills -->
-    <section>
+    <section id="skills" >
         <h1 id="currentSkills" class="display-5 text-center mt-5 mb-3 p-4" >Current Web Developer Skills</h1>
 
         <p class="lead text-center fs-6 p-3 mt-0 mx-4 ">
           The icons below represent the skills I graduated with thanks to the <a href="https://southcentralworkforce.com/index.php/commonwealth-coders/">Commonwealth Coders</a> program. This is not, however, the extent of my skills nor learning in tech. I am also working through Udemy classes with <a href="https://www.linkedin.com/in/coltsteele/">Colt Steele's</a>  Web Development Bootcamp, Git & Github Bootcamp. Also, <a href="https://www.linkedin.com/in/angela-yu-963a584b/?originalSubdomain=uk">Angela Yu's</a>  Web Development Bootcamp and her complete Python Programming Bootcamp. Colt and Angela both have different teaching styles and programming projects. I enjoy each and enjoy learning a different way of doing things and enhancing my skills.
         </p>
         
-        <div id="skillsIcons" class="row justify-content-around mt-5">
-            <img src="images/HTML5-2.png" class="col-1" alt="HTML5 Icon">
-            <img src="images/css3.jpg" class="col-1" alt="CSS3 Icon">
-            <img src="images/js.jpg" class="col-1" alt="JavaScript Icon">
-            <img src="images/Sass3.png" class="col-1" alt="Sass Icon">
-            <img src="images/Bootstrap2(1).png" class="col-1" alt="Bootstrap Icon">
-        </div>
 
-        <div id="skillsIcons" class="row justify-content-around mt-5">
-          <img src="images/ChromeDev2.png" class="col-1" alt="Chrome Dev Tools Icon">
-          <img src="images/Github.gif" class="col-1" alt="Github Icon">
-          <img src="images/React.jpg" class="col-1" alt="React Icon">
-          <img src="images/npm_icon.png" class="col-1" alt="NPM Icon">
-        </div>
+        <!-- Skills Icons Section -->
+    <section id="boxes">
+      <div class="skillsIcons">
+          
+        <!-- ROW ONE -->
+          <div id="html" class="box">
+              <i class="fab fa-html5 fa-8x"></i>
+              <h5>HTML5 Markup</h5>              
+          </div>
+        
+          <div id="css"  class="box">
+              <i class="fab fa-css3-alt fa-8x"></i>
+              <h5>CSS3 Styling</h5>              
+          </div>
+          
+          <div id="js"  class="box">
+              <i class="fab fa-js fa-8x"></i>
+              <h5>JavaScript Functionality</h5>
+          </div>
+          
+          <div id="sass" class="box">
+            <i class= "fab fa-sass fa-8x"></i>
+            <h5>Sass</h5>            
+          </div>
 
-        <div id="skillsIcons" class="row justify-content-around mt-5">
-          <img src="images/Axios.png" class="col-1" alt="Axios Icon">
-          <img src="images/Node.png" class="col-1" alt="Node Icon">
-          <img src="images/expressJS.png" class="col-1" alt="JavaScript Express Icon">
-          <img src="images/mongo.png" class="col-1" alt="MongoDB Icon">
-          <img src="images/icon_sql_256_30046.png" class="col-1" alt="SQL Icon">
-        </div>
-<br>
-    </section>
-    
-       
+          <div id="bootstrap" class="box">
+            <i class="fab fa-bootstrap fa-8x"></i>
+            <h5>Bootstrap</h5>            
+          </div>
+          
+          <!-- ROW TWO -->
+          <div id="chrome" class="box">
+            <i class="fab fa-chrome fa-8x"></i>
+            <h5>Chrome Dev Tools</h5>            
+          </div>
+          
+          <div id="github" class="box">
+            <i class="fab fa-github fa-8x"></i>
+            <h5>Github/h5>            
+          </div>
+          
+          <div id="react" class="box">
+            <i class="fab fa-react fa-8x"></i>
+            <h5>React</h5>            
+          </div>
+          
+          <div id="npm" class="box">
+            <i class="fab fa-npm fa-8x"></i>
+            <h5>NPM</h5>            
+          </div>
+          
+          <div id="axios" class="box">
+            <i class="fas fa-code fa-8x"></i>
+            <h5>Axios</h5>            
+          </div>
+          
+          <!-- ROW Three -->
+          <div id="node" class="box">
+            <i class="fab fa-node fa-8x"></i>
+            <h5>Node</h5>            
+          </div>
+          
+          <div id="jsExpress" class="box">
+            <i class="fas fa-code fa-8x"></i>
+            <h5>JSExpress</h5>            
+          </div>
+          
+          <div id="mongoDB" class="box">
+            <i class="fas fa-code fa-8x"></i>
+            <h5>MongoDB</h5>            
+          </div>
+          
+          <div id="sql" class="box">
+            <i class="fas fa-code fa-8x"></i>
+            <h5>SQL</h5>            
+          </div>
+          
+          <div id="python" class="box">
+            <i class="fab fa-python fa-8x"></i>
+            <h5>Python</h5>            
+          </div>
+      </div>
+  </section>
+
+
+             
     
       
 <!-- Footer Section -->
@@ -137,7 +202,7 @@
     <div class="row">
       <div class="col-sm-12 col-md-6">
         <h6>About</h6>
-        <p class="text-justify">I've got a wide variety of hobbies and enjoy a variety of things. It seems like my mind is divided between the past and future and the arts and sciences. 
+        <p class="text-justify">Above everything else that I have done or will do during my lifetime, the one thing that is of paramount importance to me is my wife, Samantha. A Latina and New Yorker of which both she is incredibly proud of. She makes me proud, she makes me smile, and she makes me happy in life. <br> Otherwise, I have a wide variety of hobbies and interests. It seems like my mind is divided between the past and future and the arts and sciences. 
           I collect old books (100+ years old), old coins, enjoy history and archaeology (once the degree I was seeking) family history and genealogy and Louis L'Amour novels. I'm an artist (pen, ink, paint), I'm a musician (guitar & keyboard). A gardner, avid reader (with my own small library), and thespian. I enjoy technology, specifically the future tech and what <em>could</em> be. One reason I like web development. With an imagination, almost anything is possible. I have many years left in me, and I am chasing a dream. I would love to learn robotics, AI and VR and app development.</p>
       </div>
 

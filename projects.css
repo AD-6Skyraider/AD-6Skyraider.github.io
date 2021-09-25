@@ -4,6 +4,22 @@
 /* Google Fonts - Playfair Display Designed by Claus Eggers Sørensen  */
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
 
+/* links */
+
+a:link{
+  color: #fff;
+  text-decoration: none;  
+}  
+a:visited {
+  color: #fff;
+}
+a:hover{
+  color: #fff;
+}
+a:active{
+  color: #fff;
+}
+
 
 /* NAVBAR STYLING */
 .navbar-brand {

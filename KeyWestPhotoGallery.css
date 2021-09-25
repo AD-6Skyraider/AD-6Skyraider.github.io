@@ -47,3 +47,5 @@ img {
     /* The float CSS property places an element on the left or right side of its container/parent elements to wrap around it. The element is removed from the normal document flow. Also removes the "mystery space" between image elements. (NOTE: this "mystery space" is the actual spaces between img element in an html file.) */
     float: left;
 }
+
+

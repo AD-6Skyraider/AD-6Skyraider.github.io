@@ -35,7 +35,14 @@
 }
 
 #tv {
-  position: absolute;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  /* position: absolute;
   top: 0;
   left: 0;
   width: 100%;
@@ -43,8 +50,8 @@
   background-color: black;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
-}
+  background-size: cover; */
+
 
 /* Don't Delete - Might Use */
 /* #cover {
@@ -59,7 +66,8 @@
 
 /* SPLASH PAGE TEXT */
 #name {
-  color: rgb(242, 247, 244);
+  position: relative;
+   color: rgb(242, 247, 244);
   z-index: 3;
   text-align: center;
   margin-bottom: 200px;
@@ -271,111 +279,9 @@
 
 
 
-/* Skills Icons */
-.skillsIcons {
-  width: 100vw;
-  margin: 100px 0px;
-  text-align: center;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-auto-rows: 250px;
-  color: rgb(119, 180, 124);
-}
 
 
-#html {
-    grid-column-start: 1;
-    grid-column-end: 2;
-}
-#css {
-    grid-column-start: 2;
-    grid-column-end: 3;
-}
-#js {
-    grid-column-start: 3;
-    grid-column-end: 4;
-}
-#sass {
-    grid-column-start: 4;
-    grid-column-end: 5;
-}
-#bootstrap {
-  grid-column-start: 5;
-  grid-column-end: 6;
-}
-
-#chrome {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 2;
-    grid-row-end: 2;
-}
-
-#github {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 2;
-
-}
-
-#react {
-    grid-column-start: 3;
-    grid-column-end: 4;
-    grid-row-start: 2;
-    grid-row-end: 2;
-
-}
-
-#npm {
-  grid-column-start: 4;
-  grid-column-end: 5;
-  grid-row-start: 2;
-  grid-row-end: 2;
-}
-
-#axios {
-  grid-column-start: 5;
-  grid-column-end: 6;
-  grid-row-start: 2;
-  grid-row-end: 2;
-}
-
-#node {
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 3;
-  grid-row-end: 3;   
-}
-#jsExpress {
-  grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row-start: 3;
-  grid-row-end: 3;
-
-}
-#mongoDB {
-  grid-column-start: 3;
-  grid-column-end: 4;
-  grid-row-start: 3;
-  grid-row-end: 3;
-}
-#sql {
-  grid-column-start: 4;
-  grid-column-end: 5;
-  grid-row-start: 3;
-  grid-row-end: 3;
-
-}
-#python {
-  grid-column-start: 5;
-  grid-column-end: 6;
-  grid-row-start: 3;
-  grid-row-end: 3;
-}
-
-
-/* SKILLS AND ABOUT SECTION */
+/* ABOUT SECTION */
 #about {
   margin-top: 12%;
   padding: 50px;
@@ -418,6 +324,10 @@
   border-color: rgb(119, 121, 119) !important;
 }
 
+/* SKILLS ICONS */
+.fab, .fas {
+  color: rgb(119, 180, 124);
+}
 
 
 /* Footer Section */
@@ -589,20 +499,21 @@
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-  #name,#tv, .sign {
+  #name, .sign {
     font-size: 11vmin;
-      }
+            }
       #pictures {
         display: flex;
         flex-direction: column;
         align-items: center;
       }
+      
 }
 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 800px) {
-  #name,#tv, .sign {
+  #name, .sign {
     font-size: 11vmin;
   }
 
@@ -612,10 +523,7 @@
     align-items: center;
 }
 
-#boxes {
-  font-size: xx-small;
-  
-}
+
 
 
 /* Medium devices (landscape tablets, 768px and up) */

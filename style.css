@@ -24,15 +24,12 @@
 
 #main {
   position: relative;
-  /* VH (Viewport height) determines the height of the element by setting it to a percentage of the viewport. NOTE: VW is used for width. */
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* So the text does NOT go right up against the edge on smaller screen sizes.  */
-  /* padding: 0 20px; */
-}
+  }
 
 #tv img {
     position: absolute;

@@ -38,14 +38,14 @@ body {
 
 h1 {
     font-weight: 400;
-    font-size: 150px;
+    /* font-size: 150px; */
     line-height: 1;
     margin-bottom: 20px;
 }
 
-#coin {
+/* #coin {
     font-size: 45px;
-}
+} */
 
 p {
     font-size: 20px;
@@ -58,16 +58,11 @@ p {
 
 #main {
     position: relative;
-/* VH (Viewport height) determines the height of the element by setting it to a percentage of the viewport. NOTE: VW is used for width. */
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    
-
-    /* So the text does NOT go right up against the edge on smaller screen sizes.  */
-    /* padding: 0 20px; */
+    align-items: center;    
 }
 
 #pirate-ship {

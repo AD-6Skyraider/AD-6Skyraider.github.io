@@ -22,15 +22,13 @@ html {
   }
 
 
-p {
+h1 {
     font-family: 'Italianno', cursive;
     font-weight: 700;
-    
+    text-shadow: 0px 1px, 1px 0px, 1px 1px; black;
     text-transform: uppercase;
     letter-spacing: 5px;
-    /* VW sets the font/textsize based on the width of the Viewport. AKA browser window. */
     font-size: 40px;
-    /* font-size: 25px; */
     text-align: center;
     padding-bottom: 10px;
     width: 47.5%;

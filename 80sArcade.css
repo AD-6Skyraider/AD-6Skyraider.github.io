@@ -86,12 +86,13 @@ body {
 }
 
 #gamesSection {
-    background-color: #26272b;
+    background-color: #35363b;    
 }
+
+
 
 /* Footer Section */
 .site-footer {
-    border-top: burlywood;
     background-color:#26272b;
     padding:45px 0 20px;
     font-size:15px;
@@ -255,6 +256,27 @@ body {
     }
   }
 
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    
+  .chrome {
+    font-size: 75px;
+  }
+  .dreams {
+    position: relative;
+    font-family: 'Mr Dafoe', cursive;
+    font-size: 100px;
+    color: #F975F7 ;
+    transform:rotate(-15deg);
+    -ms-transform:rotate(-15deg); /* IE 9 */
+    -webkit-transform:rotate(-15deg); /* Safari and Chrome */
+    margin-left: 60px;
+    margin-top: 20px;
+    -webkit-text-stroke: 1px #f008b7;
+    -webkit-filter: drop-shadow(2px 2px 20px #f008b7);
+    z-index: 20;
+  }
 
 
 

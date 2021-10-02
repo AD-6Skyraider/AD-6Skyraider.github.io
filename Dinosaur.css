@@ -4,6 +4,10 @@
 /* Google Fonts - Playfair Display Designed by Claus Eggers Sørensen  */
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
 
+@import url('https://fonts.googleapis.com/css2?family=Piedra&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Doppio+One&display=swap');
+
 /* NAVBAR STYLING */
 .navbar-brand {
   font-family: "Birthstone", cursive;
@@ -15,10 +19,14 @@
   padding: 0;
 }
 
+#dino, p{
+  font-family: 'Doppio One', sans-serif;
+}
 
   #animate {
-      color: blue;
+      color: rgb(12, 12, 102);
     --animate-duration: 2s;
+    font-family: 'Piedra', cursive;
   }
 
   .roll-in-left {

@@ -182,9 +182,11 @@ a:hover {
   }
   h1 {
     font-size: 5rem;
+Color: yellow;
   }
   h2 {
     font-size: 2rem;
+Color: yellow;
   }
 
   .top-cloud, .bottom-cloud {
